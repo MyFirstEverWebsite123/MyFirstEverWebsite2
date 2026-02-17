@@ -1,0 +1,21 @@
+body  {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1  {
+    color: cyan;
+    font-size: 60px;
+    font-family: Arial;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+h1:hover {
+    transform: scale(1.2);
+}
